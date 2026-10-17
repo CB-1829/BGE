@@ -1,0 +1,76 @@
+{
+  "title": "Voxel Forge Odyssey",
+  "hook": "Master factory research win worlds",
+  "game_overview": "Build 3D factories, pilot and upgrade your builder drone, master research across 3 planets, and conquer all sectors in Survival or Creative mode.",
+  "artstyle": "low-poly",
+  "genre": "tower_defense",
+  "winning_condition": "Conquer all sectors across all 3 planets, research 100% of technological nodes, and fully upgrade your personal builder drone to Level Max.",
+  "losing_condition": "In Survival mode, the Command Nexus or player drone is destroyed by hostile dimensional swarms.",
+  "player_mode": "single_player",
+  "supported_orientations": [
+    "landscape",
+    "portrait",
+    "wide"
+  ],
+  "input_methods": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": false,
+  "mobile_playable": true,
+  "language": [
+    "en"
+  ],
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "W/A/S/D / Virtual Joystick",
+      "action": "Move first-person character along 3D terrain."
+    },
+    {
+      "input": "Mouse Look / Drag on Screen",
+      "action": "Look around and aim building reticle."
+    },
+    {
+      "input": "Spacebar / Jump Button",
+      "action": "Jump / Arm-swing boost over voxel blocks."
+    },
+    {
+      "input": "Left Click / Tap 'Interact/Mine'",
+      "action": "Mine voxel ore or attack approaching enemy waves."
+    },
+    {
+      "input": "Right Click / Tap 'Build'",
+      "action": "Place selected factory block, conveyor, turret, or power pylon on 3D grid."
+    },
+    {
+      "input": "Key V / Mode Switch Button",
+      "action": "Toggle between First-Person Hand View and Tabletop God Overview perspective."
+    },
+    {
+      "input": "Key R / Tech Button",
+      "action": "Open Tech Research Tree & Upgrade matrix."
+    },
+    {
+      "input": "Keys 1-6 / Hotbar Bar Buttons",
+      "action": "Select item/turret/conveyor in build inventory."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Modes & Progression",
+      "content": "1. Game Modes: Survival Mode features resource costs, player health, escalating swarm defense waves, and Nexus protection. Creative Mode features infinite resources, instant construction, flying drone abilities, and togglable hostile waves for peaceful sandbox base designing. 2. Ultimate Campaign Victory: Tracked across 4 major pillars: (A) Clear and defend all Sectors across all 3 Planets (Verdant Prime, Magma Forge, Cryo Matrix); (B) Unlock and complete 100% of the Tech Research Tree; (C) Upgrade your personal first-person Builder Drone chassis, mining lasers, thrusters, and kinetic shielding to Level Max (Tier 5); (D) Stabilize the Omega Planetary Relays.",
+      "summary": "Survival and Creative modes with ultimate victory milestone tracking."
+    },
+    {
+      "title": "Drone Customization & First-Person Mechanics",
+      "content": "In First-Person mode, the player pilots an agile robotic Builder Drone. Movement includes physical hand-swing momentum traversal, jet thruster jumps, mining beam emitters, and modular grid projectors. Drone upgrades unlocked via research include: Hyper Thrusters (speed/vertical boost), Pulse Mining Laser (instant ore vaporization), Nanite Shielding (HP/armor), and Quantum Cargo Bay (inventory expansion).",
+      "summary": "Pilotable builder drone with hand-swing locomotion, multi-tool emitters, and tier upgrades."
+    }
+  ]
+}

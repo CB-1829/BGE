@@ -1,0 +1,86 @@
+{
+  "schema": [
+    {
+      "name": "droneSpeed",
+      "type": "number",
+      "label": "Drone Move Speed",
+      "default": 8.5,
+      "min": 4.0,
+      "max": 16.0,
+      "step": 0.5
+    },
+    {
+      "name": "droneJumpForce",
+      "type": "number",
+      "label": "Drone Jump Force",
+      "default": 7.0,
+      "min": 4.0,
+      "max": 14.0,
+      "step": 0.5
+    },
+    {
+      "name": "waveInterval",
+      "type": "number",
+      "label": "Wave Interval (s)",
+      "default": 45,
+      "min": 20,
+      "max": 90,
+      "step": 5
+    },
+    {
+      "name": "maxNexusHealth",
+      "type": "number",
+      "label": "Base Nexus Max HP",
+      "default": 1000,
+      "min": 400,
+      "max": 2500,
+      "step": 100
+    },
+    {
+      "name": "maxDroneHealth",
+      "type": "number",
+      "label": "Drone Max HP",
+      "default": 200,
+      "min": 100,
+      "max": 600,
+      "step": 50
+    },
+    {
+      "name": "startingIron",
+      "type": "number",
+      "label": "Starting Iron",
+      "default": 150,
+      "min": 50,
+      "max": 500,
+      "step": 25
+    },
+    {
+      "name": "defaultMusicVolume",
+      "type": "number",
+      "label": "Default Music Volume",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "step": 0.1
+    },
+    {
+      "name": "defaultSfxVolume",
+      "type": "number",
+      "label": "Default SFX Volume",
+      "default": 0.7,
+      "min": 0,
+      "max": 1,
+      "step": 0.1
+    }
+  ],
+  "values": {
+    "droneSpeed": 8.5,
+    "droneJumpForce": 7.0,
+    "waveInterval": 45,
+    "maxNexusHealth": 1000,
+    "maxDroneHealth": 200,
+    "startingIron": 150,
+    "defaultMusicVolume": 0.5,
+    "defaultSfxVolume": 0.7
+  }
+}
